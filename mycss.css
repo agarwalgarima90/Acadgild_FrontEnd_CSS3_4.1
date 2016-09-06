@@ -1,0 +1,23 @@
+div {
+        position: relative;
+        width: 200px;
+        height: 250px;
+        margin-left: 100px;
+        text-align: center;
+        line-height: 100px;
+        background-color: blue;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+}
+
+div:before {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: -55px;
+        top: 30px;
+        border: 30px solid;
+        border-color: transparent blue transparent transparent;
+}
